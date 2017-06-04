@@ -8,11 +8,12 @@ struct node{
 
 class linkedList{
 private:
-	node* head;
+	node* head=new node;
 	int length;
 public:
 	void insert(node*, int );
 	void print();
+	linkedList();
 
 
 };

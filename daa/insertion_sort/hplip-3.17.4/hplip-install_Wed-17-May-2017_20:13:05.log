@@ -1,0 +1,177 @@
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mHP Linux Imaging and Printing System (ver. 3.17.4)[0m
+hplip-install[5092]: info: :[01mHPLIP Installer ver. 5.1[0m
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :Copyright (c) 2001-15 HP Development Company, LP
+hplip-install[5092]: info: :This software comes with ABSOLUTELY NO WARRANTY.
+hplip-install[5092]: info: :This is free software, and you are welcome to distribute it
+hplip-install[5092]: info: :under certain conditions. See COPYING file for more details.
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :Installer log saved in: [01mhplip-install_Wed-17-May-2017_20:13:05.log[0m
+hplip-install[5092]: info: :
+error: You are running the installer as root. It is highly recommended that you run the installer as
+error: a regular (non-root) user. Do you still wish to continue?
+hplip-install[5092]: info: :
+note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mINSTALLATION MODE[0m
+hplip-install[5092]: info: :[01m-----------------[0m
+hplip-install[5092]: info: :Automatic mode will install the full HPLIP solution with the most common options.
+hplip-install[5092]: info: :Custom mode allows you to choose installation options to fit specific requirements.
+hplip-install[5092]: info: :
+Initializing. Please wait...
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mINTRODUCTION[0m
+hplip-install[5092]: info: :[01m------------[0m
+hplip-install[5092]: info: :This installer will install HPLIP version 3.17.4 on your computer.
+hplip-install[5092]: info: :Please close any running package management systems now (YaST, Adept, Synaptic, Up2date, etc).
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mDISTRO/OS CONFIRMATION[0m
+hplip-install[5092]: info: :[01m----------------------[0m
+hplip-install[5092]: info: :Distro appears to be SUSE Linux 42.1.
+
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mINSTALLATION NOTES[0m
+hplip-install[5092]: info: :[01m------------------[0m
+hplip-install[5092]: info: :Please be sure to disable the CD repositories in YaST.
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mSECURITY PACKAGES[0m
+hplip-install[5092]: info: :[01m-----------------[0m
+hplip-install[5092]: info: :AppArmor is installed. 
+hplip-install[5092]: info: :AppArmor protects the application from external intrusion attempts making the application secure
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mRUNNING PRE-INSTALL COMMANDS[0m
+hplip-install[5092]: info: :[01m----------------------------[0m
+hplip-install[5092]: info: :OK
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mMISSING DEPENDENCIES[0m
+hplip-install[5092]: info: :[01m--------------------[0m
+hplip-install[5092]: info: :Following dependencies are not installed. HPLIP will not work if all REQUIRED dependencies are not installed and some of the HPLIP features will not work if OPTIONAL dependencies are not installed.
+hplip-install[5092]: info: :Package-Name         Component            Required/Optional   
+hplip-install[5092]: info: :libnetsnmp-devel     network              REQUIRED            
+hplip-install[5092]: info: :sane-devel           scan                 REQUIRED            
+hplip-install[5092]: info: :pil                  scan                 OPTIONAL            
+hplip-install[5092]: info: :pyqt4-dbus           gui_qt4              REQUIRED            
+hplip-install[5092]: info: :python-devel         base                 REQUIRED            
+hplip-install[5092]: info: :cups-devel           base                 REQUIRED            
+hplip-install[5092]: info: :cups-ddk             base                 OPTIONAL            
+hplip-install[5092]: info: :reportlab            fax                  OPTIONAL            
+hplip-install[5092]: info: :pyqt4                gui_qt4              REQUIRED            
+hplip-install[5092]: info: :libusb               base                 REQUIRED            
+hplip-install[5092]: info: :libtool              base                 REQUIRED            
+hplip-install[5092]: info: :cups-image           base                 REQUIRED            
+hplip-install[5092]: info: :xsane                scan                 OPTIONAL            
+hplip-install[5092]: info: :libjpeg              base                 REQUIRED            
+hplip-install[5092]: info: :dbus                 fax                  REQUIRED            
+hplip-install[5092]: info: :avahi-utils          network              OPTIONAL            
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mINSTALL MISSING REQUIRED DEPENDENCIES[0m
+hplip-install[5092]: info: :[01m-------------------------------------[0m
+note: Installation of dependencies requires an active internet connection.
+warning: Missing REQUIRED dependency: python-devel (Python devel - Python development files)
+warning: Missing REQUIRED dependency: cups-devel (CUPS devel- Common Unix Printing System development files)
+warning: Missing REQUIRED dependency: libusb (libusb - USB library)
+warning: Missing REQUIRED dependency: libtool (libtool - Library building support services)
+warning: Missing REQUIRED dependency: cups-image (CUPS image - CUPS image development files)
+warning: Missing REQUIRED dependency: libjpeg (libjpeg - JPEG library)
+warning: Missing REQUIRED dependency: libnetsnmp-devel (libnetsnmp-devel - SNMP networking library development files)
+warning: Missing REQUIRED dependency: pyqt4-dbus (PyQt 4 DBus - DBus Support for PyQt4)
+warning: Missing REQUIRED dependency: pyqt4 (PyQt 4- Qt interface for Python (for Qt version 4.x))
+warning: Missing REQUIRED dependency: dbus (DBus - Message bus system)
+warning: Missing REQUIRED dependency: sane-devel (SANE - Scanning library development files)
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mINSTALL MISSING OPTIONAL DEPENDENCIES[0m
+hplip-install[5092]: info: :[01m-------------------------------------[0m
+note: Installation of dependencies requires an active internet connection.
+warning: Missing OPTIONAL dependency for option 'base': cups-ddk (CUPS DDK - CUPS driver development kit)
+warning: Missing OPTIONAL dependency for option 'network': avahi-utils (avahi-utils)
+warning: Missing OPTIONAL dependency for option 'fax': reportlab (Reportlab - PDF library for Python)
+warning: This installer cannot install 'reportlab' for your distro/OS and/or version.
+warning: Missing OPTIONAL dependency for option 'scan': pil (PIL - Python Imaging Library (required for commandline scanning with hp-scan))
+warning: Missing OPTIONAL dependency for option 'scan': xsane (xsane - Graphical scanner frontend for SANE)
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mCHECKING FOR NETWORK CONNECTION[0m
+hplip-install[5092]: info: :[01m-------------------------------[0m
+hplip-install[5092]: info: :Network connection present.
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mRUNNING PRE-PACKAGE COMMANDS[0m
+hplip-install[5092]: info: :[01m----------------------------[0m
+hplip-install[5092]: info: :su -c "zypper refresh" (Pre-depend step 1)
+hplip-install[5092]: info: :OK
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :
+hplip-install[5092]: info: :[01mDEPENDENCY AND CONFLICT RESOLUTION[0m
+hplip-install[5092]: info: :[01m----------------------------------[0m
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-devel"'
+Please wait, this may take several minutes...
+error: Command failed. Re-try #1...
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-devel"'
+Please wait, this may take several minutes...
+error: Command failed. Re-try #2...
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-devel"'
+Please wait, this may take several minutes...
+error: Command failed. Re-try #3...
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-devel"'
+Please wait, this may take several minutes...
+error: Package install command failed with error code 106
+error: Please press <enter> or enter 'y', 'n', or 'q'.
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-devel"'
+Please wait, this may take several minutes...
+error: Package install command failed with error code 106
+warning: Some HPLIP functionality might not function due to missing package(s).
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-xml"'
+Please wait, this may take several minutes...
+error: Command failed. Re-try #1...
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-xml"'
+Please wait, this may take several minutes...
+error: Command failed. Re-try #2...
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-xml"'
+Please wait, this may take several minutes...
+error: Command failed. Re-try #3...
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-xml"'
+Please wait, this may take several minutes...
+error: Package install command failed with error code 106
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-xml"'
+Please wait, this may take several minutes...
+error: Package install command failed with error code 106
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-xml"'
+Please wait, this may take several minutes...
+error: Package install command failed with error code 106
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-xml"'
+Please wait, this may take several minutes...
+error: Package install command failed with error code 106
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-xml"'
+Please wait, this may take several minutes...
+error: Package install command failed with error code 106
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-xml"'
+Please wait, this may take several minutes...
+error: Package install command failed with error code 106
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses python-xml"'
+Please wait, this may take several minutes...
+error: Package install command failed with error code 106
+warning: Some HPLIP functionality might not function due to missing package(s).
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses libpython2_7-1_0"'
+Please wait, this may take several minutes...
+error: Command failed. Re-try #1...
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses libpython2_7-1_0"'
+Please wait, this may take several minutes...
+error: Command failed. Re-try #2...
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses libpython2_7-1_0"'
+Please wait, this may take several minutes...
+error: Command failed. Re-try #3...
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-agree-with-licenses libpython2_7-1_0"'
+Please wait, this may take several minutes...
+error: Package install command failed with error code 106
+hplip-install[5092]: info: :Running 'su -c "zypper --non-interactive --no-gpg-checks in --auto-ag

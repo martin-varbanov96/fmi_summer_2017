@@ -1,0 +1,45 @@
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :[01mHP Linux Imaging and Printing System (ver. 3.17.4)[0m
+hplip-install[4753]: info: :[01mHPLIP Installer ver. 5.1[0m
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :Copyright (c) 2001-15 HP Development Company, LP
+hplip-install[4753]: info: :This software comes with ABSOLUTELY NO WARRANTY.
+hplip-install[4753]: info: :This is free software, and you are welcome to distribute it
+hplip-install[4753]: info: :under certain conditions. See COPYING file for more details.
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :Installer log saved in: [01mhplip-install_Wed-17-May-2017_20:10:48.log[0m
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :
+note: Defaults for each question are maked with a '*'. Press <enter> to accept the default.
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :[01mINSTALLATION MODE[0m
+hplip-install[4753]: info: :[01m-----------------[0m
+hplip-install[4753]: info: :Automatic mode will install the full HPLIP solution with the most common options.
+hplip-install[4753]: info: :Custom mode allows you to choose installation options to fit specific requirements.
+hplip-install[4753]: info: :
+Initializing. Please wait...
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :[01mINTRODUCTION[0m
+hplip-install[4753]: info: :[01m------------[0m
+hplip-install[4753]: info: :This installer will install HPLIP version 3.17.4 on your computer.
+hplip-install[4753]: info: :Please close any running package management systems now (YaST, Adept, Synaptic, Up2date, etc).
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :[01mDISTRO/OS CONFIRMATION[0m
+hplip-install[4753]: info: :[01m----------------------[0m
+hplip-install[4753]: info: :Distro appears to be SUSE Linux 42.1.
+
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :
+hplip-install[4753]: info: :[01mENTER ROOT/SUPERUSER PASSWORD[0m
+hplip-install[4753]: info: :[01m-----------------------------[0m
+fatal error: :hplip-install
+error: Password incorrect. 2 attempt(s) left.
+fatal error: :hplip-install
+error: Password incorrect. 1 attempt(s) left.
+fatal error: :hplip-install
+error: Password incorrect. 
+error: 3 incorrect attempts. (or) Insufficient permissions(i.e. try with sudo user).
+Exiting.

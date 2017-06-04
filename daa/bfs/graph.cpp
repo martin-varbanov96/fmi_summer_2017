@@ -1,8 +1,14 @@
 #include <iostream>
 #include "graph.h"
 
+linkedList::linkedList(){
+	head->next=NULL;
+	length=0;
+}
+
 void linkedList::insert(node* newNode, int position){
 	if(position<=0 || (position>length+1)){
+		std::cout << "HERE" <<std::endl;
 		return;
 	}
 	if( head->next==NULL ){

@@ -1,9 +1,14 @@
 #include <iostream>
+#include "gtest/gtest.h"
+TEST(simpletest, test){
+	int val = 5;
+	int var=23;
+	EXPECT_EQ(23,var);
+	EXPECT_EQ(23,val);
 
-
+}
 
 //input arr and size output int which is the razdelena razlika thing
-/*
 double razd_razl(double arr_x[],  int size_x, double arr_f[], int size_f){
 	double bigger[size_x-1];
 	double  smaller[size_x-1];
@@ -24,10 +29,9 @@ double razd_razl(double arr_x[],  int size_x, double arr_f[], int size_f){
 
 	
 	
-	
-	return (   , ,( razd_razl(bigger, size_x-1, bigger_f, size_f-1 ) -  razd_razl( smaller, size_x-1, smaller_f, size_f-1 )  )/(arr_x[size_x]-arr_x[0]));
+	return ( razd_razl(bigger, size_x-1, bigger_f, size_f-1 ) -  razd_razl( smaller, size_x-1, smaller_f, size_f-1 )  )/(arr_x[size_x-1]-arr_x[0]);
 }
-*/
+
 
 
 
@@ -49,13 +53,18 @@ F razd_razl2( F arr_f[],F arr_x[]  ,G n){
 }
 
 
-int main(){
-	int xn[7]= { 2,4,6,8,10,12,14};
-	int fxn[7]={2,3,1,2,4,5,2};
+
+int main(int argc, char **argv){
+	double xn[3]= { 0, 1, 2};
+	double fxn[3]={1, 0, 3};
 
 
-	int result = razd_razl2(fxn,xn, 7);	
+	double result = razd_razl(xn,3, fxn, 3);	
+	
 
 	std::cout << "result is  = " << result << std::endl;
+
+	    ::testing::InitGoogleTest(&argc, argv);
+	        return RUN_ALL_TESTS();
 	return 0;
 }
